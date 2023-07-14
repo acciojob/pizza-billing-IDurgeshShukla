@@ -49,18 +49,18 @@ public class Pizza {
         this.bill = "Base Price Of The Pizza: "+base +"\n";
         if(base == 300 || base == 400) {
             if (CheeseAdded) {
-                this.bill += "Extra Cheese Added: 80 \n";
+                this.bill += "Extra Cheese Added: 80\n";
             }
             if (ToppingsAdded) {
                 if (isVeg) {
-                    this.bill += "Extra Toppings Added: 70 \n";
+                    this.bill += "Extra Toppings Added: 70\n";
                 } else {
-                    this.bill += "Extra Toppings Added: 120 \n";
+                    this.bill += "Extra Toppings Added: 120\n";
                 }
             }
         }
         if (ChooseTakeAway){
-            this.bill += "Paperbag Added: 20 \n";
+            this.bill += "Paperbag Added: 20\n";
         }
         this.bill += "Total Price: " + this.price+ "\n";
         return this.bill;
