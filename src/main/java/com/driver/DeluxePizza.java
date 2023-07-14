@@ -9,6 +9,6 @@ public class DeluxePizza extends Pizza {
 //        else this.price = 400;
         addExtraCheese();
         addExtraToppings();
-        base = getPrice();
+       // base = getPrice();
     }
 }
